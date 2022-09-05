@@ -18,7 +18,7 @@ namespace e_Tickets.Controllers
         public IActionResult Index()
         {
             var data = _ctx.Actors.ToList();
-            return View();
+            return View(data);
         }
     }
 }
