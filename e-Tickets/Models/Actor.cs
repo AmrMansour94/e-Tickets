@@ -11,7 +11,7 @@ namespace e_Tickets.Models
         public int ID { get; set; }
         [Display(Name = "Profile Picture")]
         public string ProfilePicURL { get; set; }
-        [Display(Name = "Full Name")]
+        [Display(Name = "Actor Name")]
         public string FullName { get; set; }
         [Display(Name = "Biography")]
         public string Bio { get; set; }

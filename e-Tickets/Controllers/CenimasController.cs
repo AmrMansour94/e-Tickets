@@ -18,7 +18,7 @@ namespace e_Tickets.Controllers
         public async Task<IActionResult> Index()
         {
             var cenimas = await _ctx.Cenimas.ToListAsync();
-            return View();
+            return View(cenimas);
         }
     }
 }
